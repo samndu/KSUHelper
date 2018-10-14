@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="infoImageHeight">200dp</dimen>
+    <dimen name="categoryTextSize">20sp</dimen>
+    <dimen name="dividerHeight">48dp</dimen>
+</resources>

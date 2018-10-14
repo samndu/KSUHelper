@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is will display the info, horizontally.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/goto0"
+            android:tag="0"
+            style="@style/gotoButtonLandscape"
+            tools:ignore="SelectableText"
+            android:fontFamily="serif"/>
+        <TextView
+            android:id="@+id/goto1"
+            android:tag="1"
+            style="@style/gotoButtonLandscape"
+            tools:ignore="SelectableText"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/goto2"
+            android:tag="2"
+            style="@style/gotoButtonLandscape"
+            tools:ignore="SelectableText"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/goto3"
+            android:tag="3"
+            style="@style/gotoButtonLandscape"
+            tools:ignore="SelectableText"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="@dimen/dividerHeight"
+        android:drawSelectorOnTop="true"/>
+</LinearLayout>

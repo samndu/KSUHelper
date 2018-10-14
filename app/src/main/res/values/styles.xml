@@ -1,0 +1,30 @@
+<resources>
+    <!--How we want the app to look-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="gotoButton" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">3</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="gotoButtonLandscape" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">3</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+</resources>

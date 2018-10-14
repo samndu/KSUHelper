@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">KSUHelper</string>
+
+    <string name="homepage">Home Page</string>
+
+    <string name="map">Ksu Map</string>
+    <string name="events">Events</string>
+    <string name="studentforum">Student Forum</string>
+    <string name="sponsors">Sponsors</string>
+
+    <string name="history">History</string>
+
+
+    <string name="travelling">Travelling</string>
+    <string name="attractions">Attractions</string>
+    <string name="lodging">Lodging</string>
+    <string name="additionalInfo">Additional Information</string>
+
+    <string name="careers">Careers</string>
+    <string name="admissions">Admissions</string>
+
+
+    <string name="infoImage">Information Image</string>
+
+    <string name="myInfos">myInfos</string>
+    <string name="myGotos">myGotos</string>
+
+    <!--HomePage-->
+    <string name="home">Welcome to Kennesaw
+        <!--Insert pic of hogwarts castle here-->
+
+
+    </string>
+
+    <!--General Info: History-->
+    <string name="history1">Kennesaw was established.</string>
+    <!--Insert pic of the 4 founders here-->
+
+
+    <!--Living here: Careers-->
+    <string name="career">There are many career opportunities </string>
+
+    <!--Living Here: Admissions!-->
+    <string name="admins">Admission .</string>
+</resources>
